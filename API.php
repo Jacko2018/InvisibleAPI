@@ -39,7 +39,7 @@ if($string == "portscan") {
 }
 
 if($string == "ping") {
-$ip =   $pingip;
+$ip = $pingip;
 exec("ping -n 3 $ip", $output, $status);
 print_r($output);
 }
